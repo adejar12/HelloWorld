@@ -1,6 +1,6 @@
 public class Soma{
     private int a;
-    public soma(int a){
+    public Soma(int a){
         this.a=a;
     }
 
