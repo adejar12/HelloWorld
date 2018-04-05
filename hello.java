@@ -3,6 +3,8 @@ public class hello{
         for(int i=1;i<=20;i++){
             System.out.println("Ola mundo ... " + i );
         }
-         System.out.println("Fim do teste ");
+         Soma soma = new Soma(5);
+         int valor = soma.retorno();
+         System.out.println("o valor é = " + valor);
     }
 }
