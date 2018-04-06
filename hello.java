@@ -6,5 +6,10 @@ public class hello{
          Soma soma = new Soma(5);
          int valor = soma.retorno();
          System.out.println("o valor é = " + valor);
+
+         valor = soma.retornoEmDoseTripla();
+         System.out.println("o valor da dose tripla = " + valor);
+
+         
     }
 }
